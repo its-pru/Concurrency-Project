@@ -26,7 +26,7 @@ public class GUI extends JFrame implements ActionListener {
 
 	public GUI() {
 		this.setTitle("Space Invaders");
-		this.setSize(600, 600);
+		this.setSize(500, 500);
 		this.setLocationRelativeTo((Component)null);
 		this.setDefaultCloseOperation(3);
 		this.boardBox = new JTextArea();

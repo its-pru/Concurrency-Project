@@ -10,6 +10,7 @@ public class Player {
     public static int RIGHT = 1;
 
     public Player(int startingX, int startingY) {
+        char playerImg = '\u002F';
     }
 
     public int getNextX() {
